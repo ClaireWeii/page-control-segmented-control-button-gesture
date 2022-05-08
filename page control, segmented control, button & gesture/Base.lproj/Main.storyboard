@@ -66,9 +66,10 @@
                                     <action selector="pageControl:" destination="BYZ-38-t0r" eventType="valueChanged" id="d1A-Cg-WQ1"/>
                                 </connections>
                             </pageControl>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="MacBook Air" translatesAutoresizingMaskIntoConstraints="NO" id="dkR-EY-ieh">
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="MacBook Air" translatesAutoresizingMaskIntoConstraints="NO" id="dkR-EY-ieh">
                                 <rect key="frame" x="75" y="173" width="264" height="244"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lTA-CL-WEs">
                                 <rect key="frame" x="63" y="497" width="289" height="279"/>
