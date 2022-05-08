@@ -33,7 +33,7 @@ class ViewController: UIViewController {
         background()
     }
     
-    //先定義須更換的元件為Function，包含產品圖片、產品名稱、產品介紹、segment、pagecontrol，等等就可執行這個Function就好
+    //先定義須更換的元件為Function，包含產品圖片、產品名稱、產品介紹、segment、pagecontrol，等等就呼叫行這個Function就好
     func change(){
         segment.selectedSegmentIndex = index
         productImageView.image = UIImage(named: images[index])
